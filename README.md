@@ -90,6 +90,8 @@
 
 ###### check that the user was created -
     \du
+    npm run initdb
+
 ![image](https://user-images.githubusercontent.com/41032041/135658273-c59d226f-5eff-41af-91c2-2257fb66ec67.png)
 
 
@@ -106,6 +108,37 @@
 #### Access with the user name and password
 ![image](https://user-images.githubusercontent.com/41032041/135660441-2e13fbb6-9f0a-41d6-8334-1f05bdfc1afc.png)
 
+
+
+
+
+
+# Okta
+## We will connect the application with the database in the Okta site.
+
+### create a free developer account - developer.okta.com.
+#### Let's create the applicaion
+
+![Okta, create a new application](https://user-images.githubusercontent.com/41032041/135698047-4ba3ccb6-9f41-4d58-8875-55e5adca68fb.png)
+
+
+![Web application](https://user-images.githubusercontent.com/41032041/135698431-cc4c6c6c-708f-46bc-9107-bcacec94917d.png)
+
+#### choosing the port and application name
+![Okta, create a new application2](https://user-images.githubusercontent.com/41032041/135699479-e52e06b5-4b01-40f4-bcee-17a3756a3cac.png)
+
+
+#### In the .ENV file we created before we enter the Client ID and Client secret
+![clientID](https://user-images.githubusercontent.com/41032041/135699020-e30f6b58-7999-46e0-a671-662352180d78.png)
+
+#### The URL for the .ENV file is at the top 
+![OKta URL](https://user-images.githubusercontent.com/41032041/135699121-a23ad5a2-59f8-43f9-94b9-a30908ae497b.png)
+
+
+### Enable Self-Service Registration
+#### To allow other people to sign up for an account in your application, you need to enable the self-service registration feature. Click on the Users menu and select Registration.
+
+![Self-Service Registration](https://user-images.githubusercontent.com/41032041/135699393-015d581e-a949-4a16-9eb1-659d60d5e2ed.png)
 
 
 
